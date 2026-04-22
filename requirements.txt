@@ -1,0 +1,15 @@
+# Requirements for GAN Streamlit App
+# =====================================
+# Core ML stack (Keras-based, as required by the assignment)
+tensorflow>=2.13.0          # provides keras, keras.datasets, keras.layers, etc.
+
+# Streamlit web app
+streamlit>=1.32.0
+
+# Scientific computing & visualisation
+numpy>=1.24.0
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# Optional: progress bar support
+tqdm>=4.66.0
